@@ -1,0 +1,16 @@
+.header {
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    &__text {
+        color: #7C8084;
+            &:hover{
+                color: #FBFBF2 !important;
+                @include neon($color-red, $color-violet);
+            }
+    }
+}

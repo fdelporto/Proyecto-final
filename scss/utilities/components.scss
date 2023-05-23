@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.link-logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-button {
+    color: #FBFBF2 !important;
+    background-color: #343A40 !important;
+    padding: 8px 30px;
+    border-radius: 50px !important;
+    border: none;
+    cursor: pointer;
+        &:hover{
+            background-color: #232e38 !important;
+        }
+}
+
+a {
+    text-decoration: none;
+}

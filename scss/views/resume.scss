@@ -1,0 +1,22 @@
+.layout__resume{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5%;
+}
+
+.container-resume{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.list{
+    margin-bottom: 20px;
+}
+
+.aside__redes{
+    margin-top: 30px;
+    max-width: 210px;
+}

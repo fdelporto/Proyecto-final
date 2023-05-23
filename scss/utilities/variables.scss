@@ -1,0 +1,14 @@
+//Variable 
+
+$color-white: #FBFBF2;
+$color-red: #E3204D;
+$color-violet: #4835E1;
+
+
+//Mixin
+
+@mixin neon($color1, $color2) {
+    text-shadow: 0 0 5px $color1, 0 0 10px $color1, 0 0 20px $color1,
+      0 0 40px $color2, 0 0 80px $color2, 0 0 90px $color2, 0 0 100px $color2,
+      0 0 150px $color2;
+  }

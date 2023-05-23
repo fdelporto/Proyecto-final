@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Programador en Argentina" />
+  <title>Dezaing - Sitio Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" href="./assets/LogoSmall.png">
+</head>
+
+<body>
+
+  <header class="header sticky-top">
+    <nav class="navbar navbar-expand-lg container navbar-dark bg-dark">
+
+      <div class="container-fluid ">
+        <a class="link-logo d-flex justify-content-start" href="./index.html"><img width="50" src="./assets/LogoSmall.png"
+            alt="logo" /></a>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4"></div>
+        </div>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex justify-content-between w-75">
+            <a class="nav-link text-secondary-emphasis header__text" href="./pages/about.html">Acerca De Mi</a>
+            <a class="nav-link text-secondary-emphasis header__text" href="./pages/projects.html">Proyectos</a>
+            <a class="nav-link text-secondary-emphasis header__text" href="./pages/resume.html">Resume</a>
+            <a class="nav-link text-secondary-emphasis header__text" href="./pages/contact.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="./pages/about.html"><img src="./assets/home.webp" class="d-block w-100" alt="programming"></a>
+        <div class="carousel-caption d-md-block bg-black opacity-75 rounded-pill">
+          <h2>Franco Del Porto</h2>
+          <p>Web Developer</p>
+
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="./pages/projects.html"> <img src="./assets/project.webp" class="d-block w-100" alt="Projects"></a>
+        <div class="carousel-caption d-md-block bg-black opacity-75 rounded-pill">
+          <h2>Mis Proyectos</h2>
+          <p>Últimos Proyectos
+          </p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="./pages/contact.html"> <img src="./assets/contact.webp" class="d-block w-100" alt="Contact"></a>
+        <div class="carousel-caption d-md-block bg-black opacity-75 rounded-pill">
+          <h2>Contactame</h2>
+          <p>Espero tu Mensaje
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__personal-info-container col-6">
+      <a class="link-logo" href="index.html"><img class="footer__logo" src="./assets/LogoSmall.png" width="60"
+          alt="logo" /></a>
+      <div class="d-none d-md-block">
+        <h6 class="text-light">Franco Del Porto</h6>
+        <h6 class="text-light">Web Developer</h6>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end col-5">
+      <a class="footer__redes" href="https://github.com/fdelporto" target="_blank"><img
+          class="footer__redes__logo" src="./assets/github.svg" alt="github" /></a>
+      <a class="footer__redes" href="https://www.linkedin.com/in/francodelporto/" target="_blank"><img
+          class="footer__redes__logo" src="./assets/link.svg" alt="linkedin" /></a>
+      <a class="footer__redes" href="mailto:fdelporto88@gmail.com" target="_blank"><img class="footer__redes__logo"
+          src="./assets/gmail.svg" alt="gmail" /></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
