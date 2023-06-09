@@ -83,6 +83,10 @@ a {
   text-shadow: 0 0 5px #E3204D, 0 0 10px #E3204D, 0 0 20px #E3204D, 0 0 40px #4835E1, 0 0 80px #4835E1, 0 0 90px #4835E1, 0 0 100px #4835E1, 0 0 150px #4835E1;
 }
 
+h1 {
+  margin: 20px;
+}
+
 .footer {
   background-color: #1F2327;
   display: -webkit-box;
